@@ -127,7 +127,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* setup youtube style */
-.youtube { width: 100%; height: 500px; } 
+.youtube { width: 100%; height: 500px; }
+
+.info-select-event {
+	font-weight: bold;
+	color: grey;
+}
 
 .vis.timeline .item.box {
 	/* box */
