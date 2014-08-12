@@ -42,12 +42,12 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		{
 			content: iconDeal+'Partnership with Litebit and Litepaid',
 			start: '2014-04-08',
-			text: 'Stukje tekst over het event, met linkjes naar artikel op nieuwssite, artikel op guldencoin.com en/of betreffende webshop of exchange of etc. (TODO)',
+			text: 'The guldencoin team works with Litebit and Litepaid.',
 		},
 		{
 			content: iconCommunity+'Guldencoinforum online',
 			start: '2014-04-11',
-			text: 'Stukje tekst over het event, met linkjes naar artikel op nieuwssite, artikel op guldencoin.com en/of betreffende webshop of exchange of etc. (TODO)',
+			text: 'A well-known community member started a forum with english and dutch sections.',
 		},
 		{
 			content: iconOnlineMerchant+'biteweb.nl',
@@ -63,17 +63,18 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		{
 			content: iconWalletUpdate+'New wallet OpenSSL Heartbleed fix',
 			start: '2014-04-20',
-			text: 'Stukje tekst over het event, met linkjes naar artikel op nieuwssite, artikel op guldencoin.com en/of betreffende webshop of exchange of etc. (TODO)',
+			text: 'A new desktop wallet was released. Most importantly: OpenSSL Hearbleed fix.',
 		},
 		{
 			content: iconFood+'Subway Leeuwarden',
 			start: '2014-04-25',
-			text: 'Stukje tekst over het event, met linkjes naar artikel op nieuwssite, artikel op guldencoin.com en/of betreffende webshop of exchange of etc. (TODO)',
+			text: 'Subway Leeuwarden started accepting the Guldencoin.',
+			image: '/img/posters/payatsubwaynl.png',
 		},
 		{
 			content: iconMilestone+'Android wallet available',
 			start: '2014-04-26',
-			text: 'Stukje tekst over het event, met linkjes naar artikel op nieuwssite, artikel op guldencoin.com en/of betreffende webshop of exchange of etc. (TODO)',
+			text: 'The Android wallet was released.',
 		},
 		{
 			content: iconExchange+'Bleutrade exchange',
@@ -85,6 +86,7 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			content: iconFood+'Subway Assen',
 			start: '2014-05-02',
 			title: 'Pay with NLG at Subway Assen',
+			image: '/img/posters/payatsubwaynl.png',
 		},
 		{
 			content: iconOnlineMerchant+'New online merchants',
@@ -95,6 +97,7 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			content: iconFood+'Subway Kampen',
 			start: '2014-05-06',
 			title: 'Pay with NLG at Subway Kampen',
+			image: '/img/posters/payatsubwaynl.png',
 		},
 		{
 			content: iconNewStuff+'Guldencoin marketplace guldenbeurs.nl',
@@ -111,7 +114,8 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			content: iconFood+'De Prins, Amsterdam',
 			start: '2014-05-14',
 			title: 'Pay with Guldencoin video at De Prins',
-			text: 'Guldencoin is accepted at \'De Prins\', a cafe located at the Amsterdam city center.'
+			text: 'Guldencoin is accepted at \'De Prins\', a cafe located at the Amsterdam city center.',
+			image: '/img/posters/guldencoinatprins.png',
 		},
 		{
 			content: iconWalletUpdate+'New wallet',
@@ -183,6 +187,7 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			content: iconDeal+'bitstraat.nl',
 			start: '2014-06-21',
 			text: '<a href="http://www.bitstraat.nl" >Bitstraat.nl</a> offers hardware solutions for merchants, which will make accepting Guldencoin easy and convenient.',
+			image: '/img/posters/guldencoinbitstraat.jpg',
 		},
 		{
 			content: iconOnlineMerchant+'bitscoinshop.com.br',
@@ -226,9 +231,10 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			text: 'The <a href="http://nlgcup.com" >nlgcup site</a> ran a very successful betting game on the World Cup 2014. The site closed after the final payouts were made.',
 		},
 		{
-			content: iconNewStuffOfficial+'GuldenPay',
+			content: iconNewStuffOfficial+'Guldenpay',
 			start: '2014-07-16',
-			text: 'GuldenPay is released along with Hardware(Optional) for making payments with Guldencoin exceptionally easy for offline merchants.',
+			text: 'Guldenpay is released along with Hardware(Optional) for making payments with Guldencoin exceptionally easy for offline merchants.',
+			image: '/img/posters/Guldenpay-webapp.jpg',
 		},
 		{
 			content: iconArticle+'Interview at AT5',
@@ -260,29 +266,38 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			content: iconOfflineMerchant+'LaserCity in South-Holland now accepts Guldencoin.',
 			start: '2014-08-04',
 			title: 'LaserCity in South-Holland now accepts Guldencoin.',
+			image: '/img/posters/guldencoinlasercity.jpg',
 		},
 		{
 			content: iconOnlineMerchant+'Online bookstore 1boek.nl',
 			start: '2014-08-06',
 			title: 'First online bookstore to accept NLG.',
+			image: '/img/posters/guldencoin1boek.jpg',
 		},
 		{
 			content: iconOnlineMerchant+'Sliceweb',
 			start: '2014-08-06',
 			text: 'Sliceweb is the first SEO company to accept Guldencoin.',
+			image: '/img/posters/guldencoinsliceweb.png',
 		},
 		{
 			content: iconMilestone+'Crowdfunding for iOS wallet started',
 			start: '2014-08-07',
 		},
 		{
-			content: iconOnlineMerchant+'BalkonBBQ.com',
+			content: iconMilestone+"Crowdfunding reached 70% within the first 12 hours",
 			start: '2014-08-08',
 		},
 		{
-			content: iconOnlineMerchant+'nerf-kopen.com (and more)',
-			start: '2014-08-08',
+			content: iconOnlineMerchant+'BalkonBBQ.com',
+			start: '2014-08-09', // actually the 8th, but moved to make everything readable..
+			image: '/img/posters/guldencoinbalkonbbq.jpg',
+		},
+		{
+			content: iconOnlineMerchant+'nerf-kopen.com, LittlePeopleSpeelgoed.com and more',
+			start: '2014-08-09', // actually the 8th, but moved to make everything readable..
 			text: 'A group of websites started accepting Guldencoin:<br/><a href="http://www.Alarmpistoolkopen.nl" >Alarmpistoolkopen.nl</a><br/><a href="http://www.Nerf-kopen.com" >Nerf-kopen.com</a><br/><a href="http://www.Spiongadgets.nl" >Spiongadgets.nl</a><br/><a href="http://www.LittlePeopleSpeelgoed.com" >LittlePeopleSpeelgoed.com</a>',
+			image: '/img/posters/littlepeoplespeelgoed.jpg',
 		},
 		{
 			content: iconMilestone+'Guldencoin Timeline (this site) launched!',
@@ -327,8 +342,6 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		// sce clearings
 		$scope.event.title = $sce.trustAsHtml($scope.event.title);
 		$scope.event.text = $sce.trustAsHtml($scope.event.text);
-
-		$scope.$apply();
 	}
 	$scope.updateEvent(events[0]);
 
@@ -386,5 +399,6 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 
 		var item = visDataSet.get(selectedId);
 		$scope.updateEvent(item);
+		$scope.$apply();
 	});
 });
