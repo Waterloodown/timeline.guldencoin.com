@@ -314,14 +314,9 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 	});
 
 	// TODO:
-	// embed video in plaats van (of boven) image (properties 'youtube' en 'vimeo')
-	// guldencoin kleuren
-	// image iets kleiner, text iets groter
 	// text onder image bij kleine schermen
-	// styling via className's ? of gewoon een aantal variabelen maken e.g. iconOfficial, iconWalletUpdate, met daarin een icomoon icoontje.
-	// styling voor 'new merchant', zodat er alleen de naam van een bedrijf in hoeft te staan
-	// styling voor 'official announcement'
-	// styling voor 'wallet update'
+	// icoon los koppelen in losse variabele, dan icoon met groot fontsize gebruiken in image als er geen specifieke image beschikbaar is
+	// ook content in losse param zetten: 'subject' of 'shortTitle'. content zelf compilen door icoon+subject. title (indien unset) invullen met subject ZONDER icoon.
 		
 
 	$scope.event = {};
