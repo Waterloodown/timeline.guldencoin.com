@@ -1,0 +1,212 @@
+/* seedinfo custom css */
+
+html, body {
+		height: 100%;
+}
+
+body {
+	/* /* padding-top because of fixed header nav 
+	padding-top: 70px;*/
+	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-weight: 400;
+
+	-webkit-text-size-adjust: none;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background-color: #f8f8f8;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #03386e;
+	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.oneliner>* {
+	float: left;
+}
+.clearfix {
+	clear: both;
+}
+
+.data-outdated {
+	text-decoration: line-through;
+}
+
+/* modal backdrop animations */
+.modal-backdrop.am-fade {
+	opacity: .5;
+	transition: opacity .15s linear;
+	&.ng-enter {
+		opacity: 0;
+		&.ng-enter-active {
+			opacity: .5;
+		}
+	}
+	&.ng-leave {
+		opacity: .5;
+		&.ng-leave-active {
+			opacity: 0;
+		}
+	}
+}
+
+.nlg-top {
+	position: relative;
+	float: left;
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ddd;
+}
+
+.nlg-top-logo {
+	position: relative;
+	float: left;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	padding: 0px 30px 0px 60px;
+	font-size: 140%;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+	background-image: url('https://s3-eu-west-1.amazonaws.com/guldencoin.com/logodeveloper.png');
+	background-size: 38px 38px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+	z-index: 999;
+	width: 170px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.nlg-top-logo { 
+		background-image:url('https://s3-eu-west-1.amazonaws.com/guldencoin.com/logodeveloper@2x.png') !important;
+	}
+}
+
+.nlg-top-menu {
+	position: relative;
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 15px;
+}
+
+.nlg-top-more {
+	float: right;
+	padding-right: 20px;
+}
+
+.nlg-top a, .nlg-top a:active, .nlg-top a:visited {
+	position: relative;
+	float: left;
+	font-size: 100%;
+	height: 60px;
+	line-height: 60px;
+	color: #444;
+	text-decoration: none;
+	padding: 0px 15px 0px 15px;
+}
+
+.nlg-top a:hover {
+	color: #000;
+}
+
+@media only screen and (max-width: 700px) {
+	.nlg-top-menu {
+		display: none;
+		overflow: hidden;
+	}
+}
+
+/* setup youtube style */
+.youtube { width: 100%; height: 500px; } 
+
+.vis.timeline .item.box {
+	/* box */
+}
+
+.vis.timeline .item.box.selected {
+	/* selected box */
+}
+
+.vis.timelint .item.box .content {
+	/* content in the box */
+}
+
+.vis.timeline {
+	/* lots of clicks on the timeline without the intention of selecting text, so lets disable selection */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.vis.timeline.root {
+	font-size: 0.9em;
+	background: #f8f8f8;
+}
+
+.vis.timeline .item.box {
+	background-color: lightblue;
+	font-size: 1.0em;
+	color: black;
+	border-color: #003366;
+	border-width: 3px;
+	cursor: pointer;
+	border-radius: 0px;
+}
+
+.vis.timeline .item.line {
+	border-color: #003366;
+	border-width: 3px;
+}
+
+.vis.timeline .item.dot {
+	border-color: #003366;
+	border-width: 5px;
+	border-radius: 5px;
+}
+
+.vis.timeline .item.selected.box {
+	border-color: #f08239;
+	background-color: #ffc04c;
+}
+
+.vis.timeline .item.selected.line,
+.vis.timeline .item.selected.dot {
+	border-color: #f08239;
+}
+
+.vis.timeline .timeaxis .text {
+	/*color: purple;*/
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.vis.timeline .timeaxis .text.major {
+	font-weight: bold;
+}
+
+.vis.timeline .timeaxis .grid.minor {
+	border-width: 2px;
+	/*border-color: pink;*/
+}
+
+.vis.timeline .timeaxis .grid.major {
+	border-width: 2px;
+	/*border-color: #F991A3;*/
+}
+
+.vis.timeline .currenttime {
+	border-color: #f08239;
+}
