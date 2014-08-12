@@ -20,10 +20,10 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 	// an event item has the following fields:
 	// contents		string			mandatory		the text displayed in the timeline (can contain simple html)
 	// start		date string		mandatory		the date this event occured
-	// title 		string 			optional		longer title, displayed when event is selected. When this field is not set, the value of `contents` is used.
-	// text 		string 			optional		a text that is displayed when the event is selected (can contain html)
-	// image 		string 			optional		url of an image, will be displayed when the event is selected
-	// className 	string 			optional		one of the following classes: 'official', 'merchant', 'todo', 'make', 'more', 'classes'
+	// title		string 			optional		longer title, displayed when event is selected. When this field is not set, the value of `contents` is used.
+	// text			string 			optional		a text that is displayed when the event is selected (can contain html)
+	// image		string 			optional		url of an image, will be displayed when the event is selected
+	// className	string 			optional		one of the following classes: 'official', 'merchant', 'todo', 'make', 'more', 'classes'
 	var events = [
 		{
 			content: iconLaunch+'Launch',
