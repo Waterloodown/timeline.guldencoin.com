@@ -257,9 +257,9 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			text: 'DE ZAAK is which a well know business site in the Netherlands. Read the article <a href="http://www.dezaak.nl/guldencoin-mobiel-betalen-met-virtuele-nl-munt-6798973.html" >here</a>.',
 		},
 		{
-			content: iconGame+'LazerCity in South-Holland now accepts Guldencoin.',
+			content: iconOfflineMerchant+'LaserCity in South-Holland now accepts Guldencoin.',
 			start: '2014-08-04',
-			title: 'LazerCity in South-Holland now accepts Guldencoin.',
+			title: 'LaserCity in South-Holland now accepts Guldencoin.',
 		},
 		{
 			content: iconOnlineMerchant+'Online bookstore 1boek.nl',
