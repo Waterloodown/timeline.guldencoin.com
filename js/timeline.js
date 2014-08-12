@@ -317,6 +317,7 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 	// text onder image bij kleine schermen
 	// icoon los koppelen in losse variabele, dan icoon met groot fontsize gebruiken in image als er geen specifieke image beschikbaar is
 	// ook content in losse param zetten: 'subject' of 'shortTitle'. content zelf compilen door icoon+subject. title (indien unset) invullen met subject ZONDER icoon.
+	// Date formatting (2014 April 1) ipv (Apr 1, 2014)
 		
 
 	$scope.event = {};
