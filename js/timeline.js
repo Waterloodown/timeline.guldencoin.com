@@ -1,6 +1,6 @@
 var timeline = angular.module('timeline', ['adaptive.youtube']);
 
-timeline.controller('MainCtrl', function ($scope, $sce) {
+timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 
 	var iconArticle = '<span class="icon-newspaper"></span> ';
 	var iconVideo = '<span class="icon-camera"></span> ';
@@ -381,8 +381,12 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		$scope.event.title = $sce.trustAsHtml($scope.event.title);
 		$scope.event.text = $sce.trustAsHtml($scope.event.text);
 		$scope.event.icon = $sce.trustAsHtml($scope.event.icon);
+
+		
 	}
-	$scope.updateEvent(events[0]);
+	//  else {
+	// 	$scope.updateEvent(events[0]);
+	// }
 
 	console.dir(events);
 
@@ -416,10 +420,22 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		showCurrentTime: true
 	};
 
+	// create new vis timeline
 	var visTimeline = new vis.Timeline(container, visDataSet, options);
-	window.viss = visTimeline;
-	visTimeline.setSelection([1]);
+	
+	// set selectedId
 	var selectedId = 1;
+	if(parseInt($location.search()['id']) % 1 === 0){
+		selectedId = parseInt($location.search()['id']);
+	}
+
+	// set selection
+	visTimeline.setSelection([selectedId]);
+
+	// load init item
+	$scope.updateEvent(events[selectedId-1]);
+
+	// handle event when selection changes
 	visTimeline.on('select', function (properties) {
 		// deny unselect
 		if(properties.items.length == 0) {
@@ -436,6 +452,10 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 			visTimeline.setSelection([selectedId]);
 		}
 
+		// update search
+		$location.search('id', selectedId);
+
+		// update page
 		var item = visDataSet.get(selectedId);
 		$scope.updateEvent(item);
 		$scope.$apply();
