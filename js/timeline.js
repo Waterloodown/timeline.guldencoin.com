@@ -375,11 +375,6 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		console.dir(ev);
 		angular.copy(ev, $scope.event);
 
-		// // default image when there is no image
-		// if(angular.isUndefined($scope.event.image) && angular.isUndefined($scope.event.youtube)) {
-		// 	$scope.event.image = '';
-		// }
-
 		// set title if it's not set (use content)
 		if(angular.isUndefined($scope.event.title)) {
 			$scope.event.title = $scope.event.shortTitle;
