@@ -33,7 +33,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			start: '2014-04-04',
 			title: 'The return of the Gulden',
 			text: 'It\'s back!<br/>Stukje tekst over de lancering van Guldencoin. (TODO)',
-			image: 'http://www.ixperience.nl/wp-content/uploads/2014/05/Guldencoin.png',
+			image: '/img/posters/guldencoin-launch.png',
 		},
 		{
 			icon: iconExchange,
