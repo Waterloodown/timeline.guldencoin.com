@@ -272,7 +272,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Guldenpay',
 			start: '2014-07-16',
 			text: 'Guldenpay is released along with Hardware(Optional) for making payments with Guldencoin exceptionally easy for offline merchants.',
-			image: '/img/posters/Guldenpay-webapp.jpg',
+			image: '/img/posters/guldenpay-webapp.jpg',
 		},
 		{
 			icon: iconArticle,
