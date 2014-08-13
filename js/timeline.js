@@ -353,7 +353,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			icon: iconMilestone,
 			shortTitle: 'Guldencoin Timeline (this site) launched!',
 			start: '2014-08-14',
-			text: 'This website was launched. Did you know it was launched on the creators\' birthday? Now let\'s have some cake!',
+			text: 'This website was launched. Let\'s have some cake!',
 		}
 	];
 
