@@ -11,6 +11,7 @@ This site is built with:
 
  - [AngularJS](http://angularjs.org/)
  - [vis.js](http://visjs.org)
+ - [icomoon](http://icomoon.io/)
  - [Angular adaptive youtube](https://github.com/angular-adaptive/adaptive-youtube)
 
 
