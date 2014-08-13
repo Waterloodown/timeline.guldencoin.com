@@ -365,9 +365,6 @@ timeline.controller('MainCtrl', function ($scope, $sce) {
 		// set item field content (displayed on timeline)
 		ev.content = ev.icon + ev.shortTitle;
 	});
-
-	// TODO:
-	// Date formatting (2014 April 1) ipv (Apr 1, 2014)
 		
 
 	$scope.event = {};
