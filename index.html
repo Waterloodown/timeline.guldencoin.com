@@ -53,6 +53,10 @@
 						<youtube video="event.youtube" class="youtube"></youtube>
 					</div>
 					<img class="img-responsive" ng-if="event.image" ng-src="{{event.image}}" />
+					<div ng-show="!event.image && !event.youtube" style="text-align: center;" >
+						<span class="posterless-event-icon" ng-bind-html="event.icon" ></span>
+						<img class="img-responsive posterless-event-gulden" src="https://guldencoin.com/wp-content/themes/gulden/images/cover.png" />
+					</div>
 				</div>
 				<div class="col-sm-5" >
 					<h2 ng-bind-html="event.title" ></h2>
