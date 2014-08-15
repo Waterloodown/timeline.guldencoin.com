@@ -149,7 +149,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			icon: iconNewStuff,
 			shortTitle: 'betalenmetguldencoin.nl',
 			start: '2014-05-20',
-			text: 'Easy way to find places were you can pay with nlg http://www.betalenmetguldencoin.nl/',
+			text: '<a href="http://www.betalenmetguldencoin.nl/">betalenmetguldencoin.nl</a> provides an easy way to find places were you can pay with Guldencoin.',
 		},
 		{
 			icon: iconNewStuffOfficial,
