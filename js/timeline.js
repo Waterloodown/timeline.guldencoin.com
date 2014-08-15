@@ -20,7 +20,8 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 
 	// events is an array containing all important guldencoin events
 	// an event item has the following fields:
-	// contents		string			mandatory		the text displayed in the timeline (can contain simple html)
+	// icon			string			mandatory		icon html (as defined in the vars above)
+	// shortTitle	string			mandatory		the text displayed in the timeline (can contain simple html)
 	// start		date string		mandatory		the date this event occured
 	// title		string 			optional		longer title, displayed when event is selected. When this field is not set, the value of `contents` is used.
 	// text			string 			optional		a text that is displayed when the event is selected (can contain html)
