@@ -359,7 +359,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 		{
 			icon: iconOnlineMerchant,
 			shortTitle: 'Sitting Bags',
-			start: '2014-08-14',
+			start: '2014-08-15',
 			text: '<a href="http://www.sittingbags.nl" >SittingBags.nl</a> now accepts Guldencoin.',
 			image: '/img/posters/sittingbags.jpg',
 		}
