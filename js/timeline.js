@@ -64,7 +64,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			icon: iconVideo,
 			shortTitle: 'Promotional video launched',
 			start: '2014-04-18',
-			text: 'A video was made<br/>TODO: more information',
+			text: '', // TODO
 			youtube: 'criatJSIqdE',
 		},
 		{
