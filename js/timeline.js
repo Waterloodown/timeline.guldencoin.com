@@ -355,6 +355,13 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Guldencoin Timeline (this site) launched!',
 			start: '2014-08-14',
 			text: 'This website was launched. Let\'s have some cake!',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Sitting Bags',
+			start: '2014-08-14',
+			text: '<a href="http://www.sittingbags.nl" >SittingBags.nl</a> now accepts Guldencoin.',
+			image: '/img/posters/sittingbags.jpg',
 		}
 	];
 
