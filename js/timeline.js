@@ -33,7 +33,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Launch',
 			start: '2014-04-04',
 			title: 'The return of the Guilder',
-			text: 'It\'s back!<br/>Stukje tekst over de lancering van Guldencoin. (TODO)',
+			text: 'It\'s back!',
 			image: '/img/posters/guldencoin-launch.png',
 		},
 		{
