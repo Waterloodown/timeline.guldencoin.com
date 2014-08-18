@@ -368,6 +368,13 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Epic Media',
 			start: '2014-08-18',
 			text: '<a href="http://www.epicmedia.nl/">EpicMedia.nl</a> now accepts Guldencoin.',
+		},
+		{
+			icon: iconMilestone,
+			shortTitle: 'Wallet v1.2 released',
+			title: 'Wallet version 1.2.0 released.',
+			start: '2014-08-19',
+			text: 'Wallet version 1.2 is released.<br/>Most important changes:<br/><ul><li>Improved layout (Guldencoin branding, colors, icons)</li><li>Add checkpoint</li><li>Fix testnet folder name</li></ul>',
 		}
 	];
 
