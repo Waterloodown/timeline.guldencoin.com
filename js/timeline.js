@@ -362,6 +362,12 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			start: '2014-08-15',
 			text: '<a href="http://www.sittingbags.nl" >SittingBags.nl</a> now accepts Guldencoin.',
 			image: '/img/posters/sittingbags.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Epic Media',
+			start: '2014-08-18',
+			text: '<a href="http://www.epicmedia.nl/">EpicMedia.nl</a> now accepts Guldencoin.',
 		}
 	];
 
