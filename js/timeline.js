@@ -378,10 +378,10 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 		},
 		{
 			icon: iconOnlineMerchant,
-			shortTitle: 'Byte-sized hosting',
-			title: 'Byte-sized hosting started accepting Guldencoin',
+			shortTitle: 'Bytesized-hosting',
+			title: 'Bytesized-hosting started accepting Guldencoin',
 			start: '2014-08-19',
-			text: '<a href="https://bytesized-hosting.com/" >Byte-sized</a> started accepting Guldencoin. They provide VPS hosting.',
+			text: '<a href="https://bytesized-hosting.com/" >Bytesized-hosting</a> started accepting Guldencoin. They provide VPS hosting.',
 		}
 	];
 
