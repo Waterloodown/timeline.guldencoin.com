@@ -383,6 +383,13 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Bytesized-hosting started accepting Guldencoin',
 			start: '2014-08-19',
 			text: '<a href="https://bytesized-hosting.com/" >Bytesized-hosting</a> started accepting Guldencoin. They provide VPS hosting.',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Bitgoud',
+			title: 'Bitgoud started accepting Guldencoin',
+			start: '2014-08-20',
+			text: '<a href="http://www.bitgoud.nl/" >Bitgoud</a> started accepting Guldencoin. Sell Gold and Silver.',
 		}
 	];
 
