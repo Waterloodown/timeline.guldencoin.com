@@ -383,7 +383,15 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Bytesized-hosting started accepting Guldencoin',
 			start: '2014-08-19',
 			text: '<a href="https://bytesized-hosting.com/" >Bytesized-hosting</a> started accepting Guldencoin. They provide VPS hosting.',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Bytesized-hosting',
+			title: 'Bytesized-hosting started accepting Guldencoin',
+			start: '2014-08-19',
+			text: '<a href="https://bytesized-hosting.com/" >Bytesized-hosting</a> started accepting Guldencoin. They provide VPS hosting.',
 		}
+		
 	];
 
 	// fix id's on events
