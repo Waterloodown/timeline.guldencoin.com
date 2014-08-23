@@ -389,7 +389,21 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Bitgoud',
 			title: 'Bitgoud started accepting Guldencoin',
 			start: '2014-08-20',
-			text: '<a href="http://www.bitgoud.nl/" >Bitgoud</a> started accepting Guldencoin. Sell Gold and Silver.',
+			text: '<a href="http://www.bitgoud.nl/" >Bitgoud</a> started accepting Guldencoin. Sells Gold and Silver.',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Retro Voetbalshirts',
+			title: 'Retro Voetbalshirts started accepting Guldencoin',
+			start: '2014-08-21',
+			text: '<a href="http://www.retrovoetbalshirts.nl/" >Retro Voetbalshirts</a> now accepting Guldencoin. Sells Country and club football shirts.',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Online Media Koffer',
+			title: 'Online Media Koffer started accepting Guldencoin',
+			start: '2014-08-22',
+			text: '<a href="http://www.onlinemediakoffer.nl/" >Online Media Koffer</a> now accepts Guldencoin.',
 		}
 	];
 
