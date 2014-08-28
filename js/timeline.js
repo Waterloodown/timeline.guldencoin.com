@@ -282,10 +282,16 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			text: 'Interview with AT5 media about Guldenpay and cafetaria De Prins in Amsterdam using Guldenpay for NLG purchases.<br/> Listen to the interview on the <a href="http://www.at5.nl/artikelen/131523/patatje-sate-betalen-met-de-guldencoin" >AT5 website</a>.',
 		},
 		{
+			icon: iconNewStuffOfficial,
+			shortTitle: 'Guldenpay',
+			start: '2014-07-22',
+			text: 'Guldenpay is released along with Hardware(Optional) for making payments with Guldencoin exceptionally easy for offline merchants.',
+		},
+		{
 			icon: iconMilestone,
-			shortTitle: 'Guldencoin Website redesign',
-			start: '2014-07-24',
-			text: 'The Guldencoin website got major improvements again.',
+			shortTitle: 'Project Gulden website launched',
+			start: '2014-07-23',
+			text: 'The <a href="http://www.projectgulden.nl" >Project Gulden</a> new website to inform the public about Guldencoin, more updates to come!',
 		},
 		{
 			icon: iconArticle,
@@ -368,6 +374,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Epic Media',
 			start: '2014-08-17',
 			text: '<a href="http://www.epicmedia.nl/">EpicMedia.nl</a> now accepts Guldencoin.',
+			image: '/img/posters/EpicMedia.jpg',
 		},
 		{
 			icon: iconMilestone,
@@ -383,6 +390,12 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Bytesized-hosting started accepting Guldencoin',
 			start: '2014-08-19',
 			text: '<a href="https://bytesized-hosting.com/" >Bytesized-hosting</a> started accepting Guldencoin. They provide VPS hosting.',
+			image: '/img/posters/Bytesized.jpg',
+		},
+		{
+			icon: iconMilestone,
+			shortTitle: "Crowdfunding for iOS Wallet completed",
+			start: '2014-08-20',
 		},
 		{
 			icon: iconOnlineMerchant,
@@ -390,6 +403,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Bitgoud started accepting Guldencoin',
 			start: '2014-08-20',
 			text: '<a href="http://www.bitgoud.nl/" >Bitgoud</a> started accepting Guldencoin. Sells Gold and Silver.',
+			image: '/img/posters/BitGoud.jpg',
 		},
 		{
 			icon: iconOnlineMerchant,
@@ -397,6 +411,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Retro Voetbalshirts started accepting Guldencoin',
 			start: '2014-08-21',
 			text: '<a href="http://www.retrovoetbalshirts.nl/" >Retro Voetbalshirts</a> now accepting Guldencoin. Sells Country and club football shirts.',
+			image: '/img/posters/retrovoetbalshirts.jpg',
 		},
 		{
 			icon: iconOnlineMerchant,
@@ -404,6 +419,45 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Online Media Koffer started accepting Guldencoin',
 			start: '2014-08-22',
 			text: '<a href="http://www.onlinemediakoffer.nl/" >Online Media Koffer</a> now accepts Guldencoin.',
+			image: '/img/posters/onlinemediakoffer.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Jays Jerky and Goodies',
+			title: 'Jays Jerky and Goodies (Premium Natural Jerky) started accepting Guldencoin',
+			start: '2014-08-23',
+			text: '<a href="http://jaysjerkyandgoodies.auctivacommerce.com/" >Jays Jerky and Goodies</a> now accepts Guldencoin.',
+			image: '/img/posters/jaysjerkyandgoodies.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Voor de kleine prinses',
+			title: 'Voor de kleine prinses started accepting Guldencoin',
+			start: '2014-08-25',
+			text: '<a href="http://www.voordekleineprinses.nl/" >Voor de kleine prinses</a> now accepts Guldencoin.',
+			image: '/img/posters/voordekleineprinses.jpg',
+		},
+		{
+			icon: iconNewStuff,
+			shortTitle: 'Guldencoin QR Code Generator',
+			start: '2014-08-26',
+			text: 'A Guldencoin QR Code Generator site was launched. <a href="http://www.guldencoinqrcode.nl/" >guldencoinqrcode.nl</a>',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Entranz',
+			title: 'Entranz online ticketpayments started accepting Guldencoin',
+			start: '2014-08-27',
+			text: '<a href="https://entranz.nl/" >Entranz online ticketpayments</a> now accepts Guldencoin.',
+			image: '/img/posters/Entranz.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'Reclame Materiale',
+			title: 'Reclame Materiale (1st B2B Shop) started accepting Guldencoin',
+			start: '2014-08-27',
+			text: '<a href="http://reclamematerialen.com/" >Reclame Materiale</a> now accepts Guldencoin.',
+			image: '/img/posters/reclamematerialen.jpg',
 		}
 	];
 
