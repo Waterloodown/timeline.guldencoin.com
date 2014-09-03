@@ -497,7 +497,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			title: 'Cryptorush.in Adds Guldencoin to Beta',
 			start: '2014-09-01',
 			text: '<a href="https://cryptorush.in/" >Cryptorush.in</a> adds Guldencoin and will use fees from exchange towards development of Guldencoin.',
-		),
+		},
 		{
 			icon: iconOnlineMerchant,
 			shortTitle: ' Bubbelvoetbal',
