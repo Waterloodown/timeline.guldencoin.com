@@ -477,7 +477,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 		{
 			icon: iconOnlineMerchant,
 			shortTitle: 'Bitsms Launched',
-			title: 'Send Anonymous SMS with Bitsms using Guldencoin,
+			title: 'Send Anonymous SMS with Bitsms using Guldencoin',
 			start: '2014-08-30',
 			text: '<a href="http://www.bitsms.nl/" >Bitsms.nl</a> accepts Guldencoin.',
 			text: '<a href="http://www.bitsms.eu/" >Bitsms.eu</a> accepts Guldencoin.',
