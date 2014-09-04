@@ -536,6 +536,13 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			start: '2014-09-03',
 			text: '<a href="http://www.onderwijsgadgets.nl/" >Onderwijsgadgets.nl</a> now accepts Guldencoin.',
 			image: '/img/posters/Oonderwijsgadgets.jpg',
+		},
+		{
+			icon: iconArticle,
+			shortTitle: 'Altcoin Herald reviews Guldencoin',
+			start: '2014-09-04',
+			text: 'Altcoin Herald Article - Is Guldencoin The One Country Coin That Survived.<br/>Read the article at <a href="https://altcoinherald.com/guldencoin-one-country-coin-survived/" >Altcoin Herald website</a>.',
+			image: '/img/posters/AltcoinHerald1.jpg',
 		}
 	];
 
