@@ -525,8 +525,7 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			shortTitle: 'Leergadgets and Houtgadgets',
 			title: 'Leergadgets and Houtgadgets both started accepting Guldencoin',
 			start: '2014-09-03',
-			text: '<a href="http://www.leergadgets.nl/" >Leergadgets.nl</a> now accepts Guldencoin.',
-			text: '<a href="http://www.houtgadgets.nl/" >Houtgadgets.nl</a> now accepts Guldencoin.',
+			text: '<a href="http://www.leergadgets.nl/" >Leergadgets.nl</a> and <a href="http://www.houtgadgets.nl/" >Houtgadgets.nl</a> now accepts Guldencoin.',
 			image: '/img/posters/Houtgadgetsleergadgets.jpg',
 		},
 		{
@@ -543,6 +542,30 @@ timeline.controller('MainCtrl', function ($scope, $sce, $location) {
 			start: '2014-09-04',
 			text: 'Altcoin Herald Article - Is Guldencoin The One Country Coin That Survived.<br/>Read the article at <a href="https://altcoinherald.com/guldencoin-one-country-coin-survived/" >Altcoin Herald website</a>.',
 			image: '/img/posters/AltcoinHerald1.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: '101ledstrips',
+			title: '101ledstrips started accepting Guldencoin',
+			start: '2014-09-05',
+			text: '<a href="https://www.101ledstrips.nl/" >101ledstrips.nl</a> now accepts Guldencoin.',
+			image: '/img/posters/101Ledstrips.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'MinePC',
+			title: 'MinePC started accepting Guldencoin',
+			start: '2014-09-05',
+			text: '<a href="https://www.minepc.nl/" >MinePC.nl</a> now accepts Guldencoin.',
+			image: '/img/posters/MinePC.jpg',
+		},
+		{
+			icon: iconOnlineMerchant,
+			shortTitle: 'CryptoGame.nl',
+			title: 'CryptoGame.nl - 1st gaming store accepting Guldencoin',
+			start: '2014-09-06',
+			text: '<a href="http://www.cryptogame.nl/" >CryptoGame.nl</a> now accepts Guldencoin.',
+			image: '/img/posters/CryptoGame.jpg',
 		}
 	];
 
